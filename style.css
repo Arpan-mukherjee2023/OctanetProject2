@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #003135;
+    color: #afdde5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Merienda", cursive;
+    list-style-type: none;
+}
+.heading{
+    background-color: #024950;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    font-size: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #afdde5;
+    margin-top: 75px;
+}
+.heading button{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0fa4af;
+}
+.all-tasks{
+    width: 50%;
+    margin-top: 30px;
+}
+.item{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #afdde5;
+    color: #003135;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: none;
+}
+#check-item{
+    transform: scale(2);
+}
+#delete-btn{
+    font-size: 20px;
+    width: 10%;
+}
+#date-input,
+#task-input,
+.crt{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    color: #003135;
+    background-color: white;
+}
+.crt{
+    width: 10%;
+}
+@media screen and (max-width: 500px) {
+    .heading{
+        width: 80%;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+    .all-tasks{
+        width: 80%;
+    }
+    .all-tasks li{
+        width: 100%;
+    }
+}
