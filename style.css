@@ -30,6 +30,7 @@ body{
     border-radius: 5px;
     border: none;
     background-color: #0fa4af;
+    font-size: 20px;
 }
 .all-tasks{
     width: 50%;
@@ -80,5 +81,6 @@ body{
     }
     .all-tasks li{
         width: 100%;
+        font-size: 15px;
     }
 }
